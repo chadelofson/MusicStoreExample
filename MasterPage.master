@@ -1,0 +1,48 @@
+﻿<%@ Master Language="C#" %>
+<%@ Import Namespace="System.Data.SqlClient" %>
+<%@ Import Namespace="System.Data" %>
+<%@ Register src="includes/Header.ascx" tagname="Header" tagprefix="uc1" %>
+<%@ Register Src="~/mis324/Assignments/MusicStore3/includes/LeftMenu.ascx" TagName="LeftMenu" TagPrefix="uc2" %>
+<%@ Register Src="includes/Footer.ascx" tagname="Footer" TagPrefix="uc3" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<script runat="server">
+
+</script>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <script type="text/javascript" src="js/prototype.js"></script>
+    <script type="text/javascript" src="js/scriptaculous.js?load=effects,builder"></script>
+    <script type="text/javascript" src="js/lightbox.js"></script>
+    <link rel="stylesheet" href="css/lightbox.css" type="text/css" media="screen" />
+    <link href="MusicStore.css" rel="stylesheet" type="text/css" />
+    <link href="StyleSheet.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div class="maincontainer">   
+        <div class="topsection">
+                <uc1:Header ID="MainHeader" myHeading="My Header" runat="server" />
+        </div>
+        <div class="contentwrapper">
+            <div class="leftcolumn">
+                <uc2:LeftMenu ID="LeftMenu" myLeftMenu="My LeftMenu" runat="server" />
+            </div>
+            <div class="contentcolumn">
+                <asp:ContentPlaceHolder id="ContentPlaceHolder1"  runat="server">
+                 
+                </asp:ContentPlaceHolder>
+            </div>
+         </div>     
+         <div class="footer">
+                <uc3:Footer ID="Footer" myFooter="My Footer" runat="server" />
+         </div>
+    </div>
+    </form>
+</body>
+</html>

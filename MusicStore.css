@@ -1,0 +1,185 @@
+﻿body
+{
+    font-family: Comic Sans MS;
+    font-size: medium;
+    margin: 0;
+    background-color: #CCCCCC;
+}
+
+h1, h2, h3, h4, h5, h6
+{
+    font-family: Georgia;
+}
+
+img
+{
+    border:0 none;
+    }
+
+.ProductTitle
+{
+    color: #006699;
+    font-size: medium;
+}
+
+.ProductArtist
+{
+    font-family: Arial;
+}
+
+.ProductDescription
+{
+    font-family: Arial;
+    margin: 6px 0 6px 0;
+}
+
+.ProductImageSmall
+{
+    margin: 6px 8px 6px 0px;
+    float: left;
+    border: none 0;
+}
+
+.SectionHeading
+{
+    color: #CC0000;
+    font-size: medium;
+}
+
+.AlsoBoughtList
+{
+    text-align: left;
+}
+
+.SmallTitle
+{
+    font-size: x-small;
+}
+
+
+.ProductPrice
+{
+    font-family: Arial;
+}
+
+.PriceColor
+{
+    color: #990000;
+}
+
+.lblAddedToCart
+{
+    color: Red;
+    font-size: smaller;
+    margin-left: 70%;
+}
+
+
+.cartMenu
+{
+    font-size: 9pt;
+    color: #FFFFFF;
+}
+.cartMenuNumbers
+{
+    font-family: "Century Gothic";
+    font-size: 10pt;
+    color: #00DF00;
+}
+
+.smallArial
+{
+    font-family: Arial;
+    font-size: smaller;
+}
+
+/* Anchor tags ************************************* */
+a:
+{
+    color: Blue;
+    font-family: Verdana;
+    text-align: center;
+}
+
+a:Visited
+{
+    color: purple;
+}
+a:Active
+{
+    color: red;
+}
+a:Hover
+{
+    color: red;
+}
+
+a.menuCell
+{
+    color: White;
+    font-size: small;
+    text-decoration: none;
+    font-family: Comic Sans MS;
+    display:block;
+    padding:1px 0 0 10%;
+     width:90%;
+}
+a.menuCell:Visited
+{
+    color: Yellow;
+}
+a.menuCell:Active
+{
+    color: Red;
+}
+a.menuCell:Hover
+{
+    text-decoration: underline;
+    background-color:#AAAAAA;
+}
+
+A.menu2:Visited
+{
+    color: White;
+}
+.cartMenu
+{
+    font-size: 9pt;
+    color: #FFFFFF;
+}
+.cartMenuNumbers
+{
+    font-family: "OCR A Extended","Agency FB";
+    font-size: 9pt;
+    color: #00DF00;
+}
+
+/* Recent items and Best sellers */
+A.menuVisited
+{
+    color: White;
+    font-size: x-small;
+    text-decoration: none;
+    font-family: Comic Sans MS;
+}
+A.menuVisited:Visited
+{
+    color: Yellow;
+}
+A.menuVisited:Active
+{
+    color: Red;
+}
+A.menuVisited:Hover
+{
+    color: Red;
+    text-decoration: underline;
+}
+
+
+A.menu2:Visited
+{
+    color: White;
+}
+
+

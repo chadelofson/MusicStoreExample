@@ -1,0 +1,151 @@
+body
+{
+    font-size: large;
+    font-family: Comic Sans MS;
+    background-color:#0B3676;
+    margin:0;
+    padding:0;
+    line-height: 1.5em;
+}
+
+.maincontainer{
+width: 840px; /*Width of main container*/
+margin: 0 auto; /*Center container on page*/
+background-color: #FFFFE0;
+}
+
+
+.topsection{
+    background-color: #1864D6;
+    height: 110px; /*Height of top section*/
+}
+
+.contentwrapper {
+float: left;
+width: 100%;
+}
+
+.contentcolumn{
+margin-left: 200px; /*Set left margin to LeftColumnWidth*/
+}
+
+.leftcolumn{
+float: left;
+width: 200px; /*Width of left column*/
+ /*Set left margin to -(MainContainerWidth)*/
+}
+
+/*
+.header
+{
+    border-bottom: solid 1px red;
+}
+*/
+/*
+.container
+{
+    width: 840px;
+    margin: 0 auto; 
+    border: solid 1px;
+    
+}
+*/
+/*
+.menubox
+{
+    float: left;
+    width: 160px;
+    height: auto;
+    overflow: auto;
+    background-color: Gainsboro;
+    padding: 20px;
+}
+*/
+.logo
+{
+    float:left;
+}
+
+.headerlinks
+{
+    float:right;
+    overflow: auto;
+    color:#FFFFFF;
+    vertical-align:top;
+}
+
+ul.headerlinks
+{
+    list-style-type: none;
+}
+
+li.headerlinks
+{
+    list-style-type: none;    
+}
+
+a.headerlinks
+{
+    
+    color:#FFFFFF
+}
+
+/*
+.content
+{
+    float: left;
+    width:560px;
+    padding: 20px;
+    text-align: left;
+    border-width: 0;
+}
+*/
+a.menu:link
+{
+    color: blue;
+    font-weight: bold;
+    text-decoration: none;
+}
+a.menu:visited
+{
+    color: Navy;
+    text-decoration: none;
+}
+a.menu:hover
+{
+    color: red;
+    text-decoration: underline;
+}
+
+img
+{
+vertical-align:text-top;    
+}
+
+.info
+{
+text-align:right;    
+}
+
+.musictitle
+{
+text-align:center;
+background-color:#0B3676;    
+}
+
+.footer{
+clear: both;
+width: 100%;
+background-color: #1864D6;
+color: #FFF;
+text-align: center;
+padding: 4px 0;
+}
+
+
+/*.footer
+{
+    clear: both;
+    border-top: solid 1px red;
+    text-align:center;
+}*/
